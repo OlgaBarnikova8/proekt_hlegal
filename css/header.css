@@ -1,0 +1,163 @@
+.header {
+  background-image: url("../assets/images/symbol.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 50px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .header-language::after {
+    content: "| Kyiv, Mechnikova str., 14/1 |";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+  }
+}
+.header-language-box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: rgba(245, 245, 250, 0.2);
+  padding: 15px;
+}
+@media (min-width: 768px) {
+  .header-language-box {
+    padding: 0px 0px 35px 5px;
+    background: rgba(245, 245, 250, 0);
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 1024px) {
+  .header-language-box {
+    justify-content: flex-end;
+    padding: 0px;
+    position: relative;
+    top: 30px;
+  }
+}
+.header-language-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+.header-language-link:hover {
+  color: #F0145A;
+}
+.header-phone {
+  margin-left: 5px;
+}
+.header-fk {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header-fk {
+    display: block;
+  }
+}
+.header-fk-circle {
+  color: #FFFFFF;
+  padding-right: 5px;
+}
+@media (max-width: 767px) {
+  .header-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 20px;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .header-logo {
+    padding-bottom: 30px;
+  }
+}
+.header-solutions {
+  padding: 270px 0px 305px 0px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+.header-scroll {
+  position: relative;
+  left: 50%;
+}
+
+.--aktive {
+  padding: 7px 5px;
+  background: #F0145A;
+  border-radius: 8px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media (min-width: 1024px) {
+  .navigation {
+    justify-content: flex-end;
+    position: relative;
+    top: -50px;
+  }
+}
+.navigation_list {
+  padding-left: 0px;
+}
+.navigation_list li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 15px;
+}
+.navigation_list li:last-child {
+  padding-right: 0px;
+}
+@media (max-width: 767.98px) {
+  .navigation_list li {
+    display: block;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 60px;
+  }
+}
+.navigation_link {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.7px;
+  text-decoration: none;
+}
+.navigation_link:hover {
+  color: #F0145A;
+}
+@media (max-width: 768px) {
+  .navigation_link {
+    color: rgb(8, 8, 139);
+  }
+}
+@media (min-width: 768px) {
+  .navigation_link {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+}

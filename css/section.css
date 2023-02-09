@@ -1,0 +1,223 @@
+/*services===========================*/
+.services {
+  padding: 30px 30px 60px 30px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .services {
+    padding: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .services-container {
+    display: flex;
+  }
+}
+.services-column {
+  flex: 1 0 50%;
+}
+.services-orientation {
+  display: flex;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .services-orientation {
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .services-orientation {
+    flex-direction: column;
+    gap: 30px;
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 0px;
+    overflow: inherit;
+  }
+}
+.services-orientation-link {
+  padding-right: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #B3B3BA;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.services-orientation-link:last-child {
+  padding-right: 0px;
+}
+.services-orientation-link:hover {
+  color: #F0145A;
+}
+@media (min-width: 768px) {
+  .services-orientation-link {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+@media (min-width: 1024px) {
+  .services-orientation-link {
+    padding-right: 60px;
+  }
+}
+.services-idea {
+  padding: 30px 0px;
+}
+@media (min-width: 768px) {
+  .services-idea {
+    padding: 60px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .services-idea {
+    padding: 0px 0px 0px 60px;
+  }
+}
+.services-idea-title {
+  margin: 0px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .services-idea-title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+.services-idea-text {
+  margin: 0;
+  font-size: 19px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.link--active {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*experience==============================*/
+@media (min-width: 1024px) {
+  .experience {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 767.98px) {
+  .experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+@media (min-width: 767.98px) {
+  .experience-column {
+    flex: 1 0 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .experience-column {
+    flex: 1 0 25%;
+  }
+}
+.experience-column-title {
+  margin: 0;
+  padding: 50px 0 15px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+}
+.experience-column-text {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+@media (min-width: 767.98px) {
+  .experience-column-text {
+    padding-bottom: 20px;
+  }
+}
+
+.more {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #239df5;
+}
+.more:hover {
+  color: #F0145A;
+}
+
+.title__gradient {
+  margin: 0;
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media (min-width: 768px) {
+  .title__gradient {
+    padding-bottom: 80px;
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+.clients {
+  padding-top: 30px;
+}
+.clients-title {
+  margin: 0;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #323264;
+}
+.clients-container {
+  text-align: -webkit-center;
+}
+@media (min-width: 767.98px) {
+  .clients-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 767.98px) {
+  .clients-item {
+    flex: 1 0 33.3%;
+  }
+}
+@media (min-width: 1024px) {
+  .clients-item {
+    flex: 1 0 25%;
+  }
+}
+.clients-logo {
+  object-fit: cover;
+}
+.clients-tablet {
+  display: none;
+}
+@media (min-width: 767.98px) {
+  .clients-tablet {
+    display: block;
+  }
+}
